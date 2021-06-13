@@ -9,7 +9,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutSchema", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnessSchema", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
