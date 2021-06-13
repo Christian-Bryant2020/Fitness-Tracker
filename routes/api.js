@@ -2,7 +2,7 @@ const router = require("express").Router();
 const Workout = require("../models/fitnessSchema.js");
 const { db } = require("../models/fitnessSchema.js");
 
-router.put("/api/workouts/:id",({body}) => {
+router.put("/api/workouts/:id",(req, res) => {
     Workout.findByIdAndUpdate(req.params.id,body)
     .then(dbWorkout => {
         res.json(dbWorkout);
