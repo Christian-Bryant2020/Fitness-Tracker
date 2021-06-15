@@ -1,14 +1,12 @@
-# User Directory 
+# Fitness Tracker
   ## Table of Contents
   - [Description](#description)
   - [Installation](#install)
   - [Usage](#usage)
   - [Contributors](#contributers)
-  - [Contact](#contact)
   - [Questions](#questions)
-  - [License](#license)
   ## Description 
-  An online/offline budget tracker that allows users to add expenses and deposits with or without a connection.
+  A fitness tracker that allows users to add exercises and complete them.
   ## Installation
   1. Clone the repository 2. Run "npm i" to install dependencies. 3. Run "npm start" to launch the application locally.
   ## Usage
