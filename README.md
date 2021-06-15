@@ -13,8 +13,6 @@
 https://lit-eyrie-36514.herokuapp.com/
   ## Contributing
 https://github.com/Christian-Bryant2020/Fitness-Tracker
-  ## Demo
-  insert demo here
   ## Questions
   Please reach out with any questions through the links below:
   - https://github.com/christian-bryant2020
