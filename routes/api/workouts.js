@@ -53,8 +53,7 @@ router.get('/workouts/range', async (req, res) => {
       }
     }
   ])
-    // .sort({ _id: -1 })
-    .limit(7)
+    .limit(8)
     .then(dbNote => {
       res.json(dbNote);
     })
